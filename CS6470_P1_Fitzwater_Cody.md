@@ -33,3 +33,11 @@ I will be using standard Python libraries: **pandas** for tabular ingestion and 
 
 ### 7. Risks and fallback
 The most likely cause of failure for this plan would be the `TotalCharges` column where there are 11 rows that contain invisible whotespace strings. This could cause the model to crash so I will need to make sure this column is setup as numeric floats when the data is first loaded. If our dataset doesnt provide the expected results then the Plan B Dataset would be **Bank Marketing Dataset (UCI Machine Learning Repository)** because of its similarities to our current dataset.
+
+### AI Use Disclosure
+
+**Tool**: Google Gemini
+
+**Scope of Use**: Conceptual sounding board to clarify assignment terminology, verify dataset edge cases (e.g., whitespace in TotalCharges), and review a preliminary draft for technical accuracy.
+
+**Attestation**: All final text, synthesis, and phrasing were independently written and reviewed by the student.
